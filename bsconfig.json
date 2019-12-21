@@ -1,0 +1,35 @@
+{
+  "name": "ExpoDemoApp",
+  "refmt": 3,
+  "reason": {
+    "react-jsx": 3
+  },
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "bs-dependencies": [
+    "reason-react",
+    "reason-react-native",
+    "reason-react-navigation",
+    "bs-promise-monad",
+    "bs-webapi",
+    "@glennsl/bs-json",
+    "reason-expo",
+    "reason-react-native-maps",
+    "wonka",
+    "@reason-react-native/netinfo",
+    "wonka",
+    "bs-date-fns"
+  ],
+  "ppx-flags": [
+    "@baransu/graphql_ppx_re/ppx6"
+  ]
+}
